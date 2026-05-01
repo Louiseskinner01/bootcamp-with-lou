@@ -1,4 +1,19 @@
+body{
+    background-color: rgb(244, 238, 155);
+}
+
+
+.btn-book{
+    background-color: aquamarine;
+}
+
+.btn-book:hover{
+    background-color: rgb(255, 127, 221);
+}
+
+
 a img{
     width: 100px !important;
     height:120px !important;
 }
+
