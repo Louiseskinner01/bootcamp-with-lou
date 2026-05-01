@@ -21,5 +21,5 @@ document.getElementById("booking-form").addEventListener("submit", function(e) {
     }));
 
     // Redirect to Stripe checkout
-    window.location.href = "https://buy.stripe.com/YOUR-LINK";
+    window.location.href = "https://buy.stripe.com/aFa8wI7wK6Gw3h00NKa3u01";
 });
