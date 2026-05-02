@@ -5,9 +5,8 @@ document.getElementById("booking-form").addEventListener("submit", function(e) {
     const firstName = document.getElementById("first-name").value.trim();
     const lastName = document.getElementById("last-name").value.trim();
     const email = document.getElementById("exampleFormControlInput1").value.trim();
-    const selectedClass = document.querySelector("select").value;
 
-    if (!firstName || !lastName || !email || !selectedClass) {
+    if (!firstName || !lastName || !email) {
         alert("Please complete all required fields");
         return;
     }
@@ -17,7 +16,7 @@ document.getElementById("booking-form").addEventListener("submit", function(e) {
         firstName,
         lastName,
         email,
-        selectedClass
+      
     }));
 
     // Redirect to Stripe checkout
