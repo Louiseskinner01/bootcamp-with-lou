@@ -37,11 +37,11 @@ a[href^="tel"] {
 
 
 .btn-book{
-    background-color: rgb(255, 127, 221);
+    background-color:  #7fffd4;
 }
 
 .btn-book:hover{
-    background-color:  #7fffd4;
+    background-color: rgb(255, 127, 221);
 }
 
 
