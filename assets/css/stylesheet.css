@@ -1,5 +1,9 @@
-body{
+body {
     background-color: rgb(244, 238, 155);
+}
+
+hr{
+    color:  #e53cc1;
 }
 
 
@@ -17,6 +21,13 @@ a img{
     height:100px !important;
 }
 
+.morrisons-address{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
 
 
 
@@ -31,6 +42,18 @@ a img{
     padding: 5px;
 }
 
+#navbar-brand{
+    border:none;
+    background-color: white;
+   
+}
+
+a#navbar-brand.navbar-brand img, .container-location{
+    border: thin 1px white !important;
+    border-radius: 9px !important;
+}
+
+
 .important{
     color: red;
 }
@@ -38,3 +61,5 @@ a img{
 li{
     list-style: none;
 }
+
+
