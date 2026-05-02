@@ -2,9 +2,25 @@ body {
     background-color: rgb(244, 238, 155);
 }
 
-hr{
+hr,h3{
     color:  #e53cc1;
 }
+
+.feature-pink{
+    color:  #e53cc1;
+}
+
+
+.fa-instagram {
+    font-size: 25px;
+  
+    transition: 0.3s;
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+}
+
 
 
 .btn-book{
