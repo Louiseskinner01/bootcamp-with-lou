@@ -4,16 +4,37 @@ body{
 
 
 .btn-book{
-    background-color: aquamarine;
+    background-color: rgb(255, 127, 221);
 }
 
 .btn-book:hover{
-    background-color: rgb(255, 127, 221);
+    background-color:  #7fffd4;
 }
 
 
 a img{
-    width: 100px !important;
-    height:120px !important;
+    width: 140px !important;
+    height:100px !important;
 }
 
+
+
+
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(255, 127, 221);
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.important{
+    color: red;
+}
+
+li{
+    list-style: none;
+}
