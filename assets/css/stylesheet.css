@@ -6,6 +6,13 @@ hr,h3{
     color:  #e53cc1;
 }
 
+h5{
+    background-color: white;
+    border: 1px thin black;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
 .feature-pink{
     color:  #e53cc1;
 }
