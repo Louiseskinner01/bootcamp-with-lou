@@ -51,9 +51,11 @@ a img{
 }
 
 .morrisons-address{
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
+   
     text-transform: capitalize;
+    color:rgb(255, 127, 221);
+    text-align: left;
 }
 
 
